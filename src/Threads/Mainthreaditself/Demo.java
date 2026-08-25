@@ -1,4 +1,4 @@
-package Threads;
+package Threads.Mainthreaditself;
 
 public class Demo {
     public static void main(String[] args){
