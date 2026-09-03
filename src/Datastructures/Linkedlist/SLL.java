@@ -1,4 +1,4 @@
-package Collections.Linkedlist;
+package Datastructures.Linkedlist;
 
 class Node {
     int data;

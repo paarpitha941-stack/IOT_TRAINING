@@ -1,4 +1,4 @@
-package Collections.Stack;
+package Datastructures.Stack;
 
 public class Stack {
     int[] arr;

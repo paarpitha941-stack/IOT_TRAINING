@@ -1,4 +1,4 @@
-package Collections.Linkedlist;
+package Datastructures.Linkedlist;
 
 
 
@@ -118,6 +118,43 @@ public class DLL {
         }
 
         temp.next = n;
+    }
+    void deleteAttail(){
+        if(head==null){
+            System.out.println("underflow");
+            return;
+        }
+        Node1 todel=head;
+        head=head.next;
+        if(head!=null){
+            head.prev=null;
+        }
+        todel=null;
+    }
+    void deletebyvalue(int val){
+        if(head==null){
+            System.out.println("empty");
+            return;
+        }
+        if(head.data==val){
+            head=head.next;
+            if(head!=null){
+                head.prev=null;
+            }
+        }
+        Node1 temp=head;
+        while(temp.next!=null){
+            temp=temp.next;
+        }
+        if(temp==null){
+            System.out.println("element is not found");
+            return;
+        }
+        temp.prev.next=temp.next;
+        if(temp.next!=null){
+            temp.next.prev=temp.prev;
+        }
+
     }
 }
 

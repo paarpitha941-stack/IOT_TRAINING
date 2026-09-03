@@ -1,4 +1,4 @@
-package Collections.Queses;
+package Datastructures.Queses;
 
 public class Queue {
     int[]arr;

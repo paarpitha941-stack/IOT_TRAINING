@@ -1,6 +1,6 @@
 package OPPS.Basics.withoutAttribute;
 
-public class Hello {
+public class    Hello {
     static void printhello(){
         System.out.println("Hello");
     }
